@@ -7,7 +7,6 @@ const props = dotenv.config()
 const smsEngine = require('../engine/vaccineEngine')
 
 const port = process.env.PORT || 8080
-const repo = process.env.REPO || voicera
 const version = process.env.VERSION || v1
 
 const path = `/${version}`
