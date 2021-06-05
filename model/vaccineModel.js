@@ -10,7 +10,7 @@ const port = process.env.PORT || 8080
 const repo = process.env.REPO || voicera
 const version = process.env.VERSION || v1
 
-const path = `/${version}/${repo}`
+const path = `/${version}`
 
 const sms = express()
 
